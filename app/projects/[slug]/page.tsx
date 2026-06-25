@@ -76,7 +76,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
         {/* Next project */}
         <div style={{ borderTop: "1px solid var(--border)", background: "var(--bg2)" }}>
           <Link href={`/projects/${next.slug}`}
-            style={{ display: "block", textDecoration: "none", maxWidth: 1280, margin: "0 auto", padding: "56px 48px", display: "flex", alignItems: "center", justifyContent: "space-between" }}
+            style={{ textDecoration: "none", maxWidth: 1280, margin: "0 auto", padding: "56px 48px", display: "flex", alignItems: "center", justifyContent: "space-between" }}
             onMouseEnter={e => (e.currentTarget.style.opacity = "0.75")}
             onMouseLeave={e => (e.currentTarget.style.opacity = "1")}>
             <div>
