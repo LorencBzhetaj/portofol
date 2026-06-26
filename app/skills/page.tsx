@@ -75,7 +75,7 @@ export default function SkillsPage() {
                     {t.list.map(item => (
                       <div key={item} style={{ display: "flex", alignItems: "center", gap: 12 }}>
                         <span style={{ width: 4, height: 4, borderRadius: "50%", background: "var(--gold)", display: "inline-block", flexShrink: 0 }} />
-                        <span style={{ fontSize: 14, color: "var(--text)", fontFamily: "'Cormorant Garamond', serif", fontWeight: 400, fontSize: "1.05rem" }}>{item}</span>
+                        <span style={{ color: "var(--text)", fontFamily: "'Cormorant Garamond', serif", fontWeight: 400, fontSize: "1.05rem" }}>{item}</span>
                       </div>
                     ))}
                   </div>
